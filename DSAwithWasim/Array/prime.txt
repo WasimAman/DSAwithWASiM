@@ -1,0 +1,31 @@
+ek example se samajhte hai 
+
+    
+    if given number is 36;
+    total factor of 36 is
+
+    1 X 36
+    2 X 18
+    3 X 12
+    4 X 9
+    6 X 6
+    9 X 4
+    12 X 3
+    18 X 2
+    36 X 1
+
+    in above factor 36 1 aur 36 ke ilawa aur bhi number is divisible hai isliye wo prime
+    number nahi hai 
+
+    lekin ek baar ager hum factor pe nazar daale to ye dekhenge ki after 6 X 6 number's are 
+    repeated to ager hum 6 X 6 tak condition check ker le to do we really need to check
+    after 6 X 6? So answer is No.
+
+    it's because ager 2 X 18 = 36 hota hai to obviously 18 X 2 = 36 hoga isliye 
+    inseted of for(int i=2 ; i<n ; i++) runnig this loop we can run this loop 
+    for(int i=2 ; i*i<=n ; i++) or for(int i=2 ; i<= under root n ; i++)
+
+    time complexity would be Big O(under root n)
+
+    if you didn't get concept yet take another example and try to dry run and apply above logic
+    definetly you will get the idea how above logic is working.

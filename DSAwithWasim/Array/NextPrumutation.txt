@@ -1,0 +1,18 @@
+for example ek array diya hua hai 
+    arr = {4,2,5,0,9,3};
+    then NextPrumutation thik 425093 se bara hona array ke form me
+    let's arrange the number and find some observation points
+
+    here n = 6 means total 6! prumutation is possible means 720
+    425039 this is one of them but it's not because 425039 is less than 425093 
+    425309 this is one of them but it can be NextPrumutation of 425093 
+    425930 this is one of them but it's not because it is greater than 425309
+    i hope you got an idea
+    so observation points are:- 
+                                1). find the index of smallest number in the array form last
+                                    (using loop)
+                                2). once you got the index then sort the array in assending order after index till end of array 
+                                    (apply any sorting algorithm but it is batter to use more optimize sorting)
+                                3). after sorting we have to swap the index element and just greater than index element in the array after index and break the loop
+
+

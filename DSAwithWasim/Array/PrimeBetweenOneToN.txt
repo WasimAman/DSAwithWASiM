@@ -1,0 +1,24 @@
+To iss wale problem me bhi loop to wahi run hoga till sqrt(n) but logic ye hai ki
+ek boolean array banana hai like
+    let's say range is 1 to 20.
+
+    and as we know that default value of boolean array is false
+    to ager 2 ek prime number hai it means multiple of 2 prime nahi hoga think a bit
+
+    isliye 2nd index ko false hi rahne denge aur uske saare multiple ko true ker denge
+    mean 2 false rahega aur 4,6,8,10,12,14,16,18,20 true ho jaayega
+    now increament i (i++) ab i = 3 hai aur 3 index per bhi false hoga to jaise hi hume false mila hum uske 
+    multiple ko true ker denge 
+
+    3 flase  6,9,12,15,18 true hoga 
+    now move i again now i = 4 means yahan per true milega because humne false se true ker diya jab i = 2 tha
+    if i==true then move i now i=5 and 5 < sqrt(20) loop end 
+    print the answer 
+    for(int i=2;i<=end;i++){
+        if(arr[i]==false){
+            System.out.println(i); // answer will be that indexex which have false value
+        }
+    }
+
+    dry run this concept and try to understand your self.
+        
